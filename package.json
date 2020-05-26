@@ -1,0 +1,74 @@
+{
+  "name": "how-much-is-that",
+  "version": "1.0.0",
+  "description": "mash-up 9th web-team mini project",
+  "scripts": {
+    "start": "webpack-dev-server --open --config ./config/webpack.dev.js",
+    "build": "webpack --config ./config/webpack.prod.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mash-up-kr-web/how-much-is-that.git"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "@testing-library/jest-dom": "^5.8.0",
+    "@testing-library/react": "^10.0.4",
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.5",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-import-resolver-webpack": "^0.12.1",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.0.3",
+    "husky": "^4.2.3",
+    "jest": "^26.0.1",
+    "lint-staged": "^10.0.10",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "prettier": "^2.0.2",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "terser-webpack-plugin": "^2.3.5",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "author": "lallaheeee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mash-up-kr-web/how-much-is-that/issues"
+  },
+  "homepage": "https://github.com/mash-up-kr-web/how-much-is-that#readme"
+}
