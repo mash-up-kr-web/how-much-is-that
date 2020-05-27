@@ -1,0 +1,36 @@
+.product_card {
+  display: flex;
+  padding: 1rem;
+
+  border: 1px solid #eee;
+  box-shadow: 4px 2px 20px 3px rgba(0, 0, 0, 0.1);
+
+  & img {
+    margin: 1rem;
+  }
+}
+
+.product_card_info {
+  display: flex;
+  flex-direction: column;
+
+  & > * {
+    flex: none;
+  }
+
+  & .product_review_info {
+    margin-top: 1rem;
+    font-weight: 300;
+  }
+
+  & .product_review_counts {
+    margin-left: 1rem;
+  }
+
+  & .product_price {
+    margin-top: auto;
+    margin-left: auto;
+
+    font-size: 1.5rem;
+  }
+}
